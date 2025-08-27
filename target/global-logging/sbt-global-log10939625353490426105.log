@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.3 (Amazon.com Inc. Java 11.0.26)
+[debug] Load.defaultLoad until apply took 68.113292ms
+[debug]           Load.loadUnit: plugins took 50.684833ms
+[debug]           Load.loadUnit: defsScala took 0.24625ms
+[debug] [Loading] Scanning directory /Users/rishabh/poc/real-estate-poc/project
+[debug]             Load.loadUnit: mkEval took 6.466875ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/rishabh/poc/real-estate-poc/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.346208 ms
+[info] loading settings for project real-estate-poc-build from plugins.sbt ...
+[debug]               Load.resolveProject(real-estate-poc-build) took 34.760333ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id real-estate-poc-build, base: /Users/rishabh/poc/real-estate-poc/project, plugins: List(<none>))) took 65.186417ms
+[debug] [Loading] Done in /Users/rishabh/poc/real-estate-poc/project, returning: (real-estate-poc-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 320.837ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.252417ms
+[debug]         Load.loadUnit(file:/Users/rishabh/poc/real-estate-poc/project/, ...) took 375.292417ms
+[debug]       Load.apply: load took 677.398459ms
+[debug]       Load.apply: resolveProjects took 2.729959ms
+[debug]       Load.apply: finalTransforms took 38.036667ms
+[debug]       Load.apply: config.delegates took 3.374792ms
+[debug]       Load.apply: Def.make(settings)... took 245.283292ms
+[debug]       Load.apply: structureIndex took 53.17575ms
+[debug]       Load.apply: mkStreams took 1.133209ms
+[info] loading project definition from /Users/rishabh/poc/real-estate-poc/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1603.110708ms
+[debug]     Load.loadUnit: defsScala took 0.002041ms
+[debug] [Loading] Scanning directory /Users/rishabh/poc/real-estate-poc
+[debug]       Load.loadUnit: mkEval took 0.140209ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.322625 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 1.347917ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/rishabh/poc/real-estate-poc, plugins: List(<none>))) took 4.909667ms
+[debug] [Loading] Done in /Users/rishabh/poc/real-estate-poc, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 125.432417ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.967333ms
+[debug]   Load.loadUnit(file:/Users/rishabh/poc/real-estate-poc/, ...) took 1731.343875ms
+[debug] Load.apply: load took 1740.918959ms
+[debug] Load.apply: resolveProjects took 0.085417ms
+[debug] Load.apply: finalTransforms took 10.38275ms
+[debug] Load.apply: config.delegates took 0.290375ms
+[debug] Load.apply: Def.make(settings)... took 53.106ms
+[debug] Load.apply: structureIndex took 24.492209ms
+[debug] Load.apply: mkStreams took 0.001875ms
+[info] set current project to real-estate-poc (in build file:/Users/rishabh/poc/real-estate-poc/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
